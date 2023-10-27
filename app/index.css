@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer utilities {
+  .page-container {
+    @apply flex flex-col items-center justify-center min-h-screen
+  }
+}
